@@ -1,16 +1,66 @@
+* {
+    outline: 2px solid red;
+    background-color: white;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
 
 #introduction {
-    background-color: #1F2937;
+    border: 2px dotted red;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 500px;
+
 }
 
-.main {
-    font-family: Roboto,'Times New Roman', Times, serif;
-    font-size: 48px;
-    font-weight: 900px;
-    color: #F9FAF8;
+#information {
+    display: flex;
+    flex: 1 1 500px;
 }
 
-.subtext {
-    font-family: Roboto,'Times New Roman', Times, serif;
-    font-size: 18px;
+#quote {
+    flex: 1 1 500px;
 }
+
+.hero-info {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#introduction .hero-text {
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+#intorduction .subtext {
+    font-size: 20px;
+    font-weight: 200;
+    
+}
+
+#introduction .hero-button {
+    font-size: 10px;
+    height: 20px;
+    width: 70px;
+    background-color: #3882f6;
+}
+
+.top-image {
+    height: 150px;
+    width: 300px;
+    background-color: lightgray;
+
+}
+
+
+
+
+
